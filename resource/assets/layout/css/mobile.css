@@ -1,0 +1,18 @@
+.help-panel img {
+    width: 100%; 
+    padding: 15px 2px;
+}
+
+.help-panel ol {
+    font-size: 40px;
+    color: yellow;
+}
+
+.help-panel ol li {
+    margin: 5px 25px 20px;
+}
+.help-panel p.desc {
+    font-size: 30px;
+    color: #fff;
+    padding: 5px 20px 10px 20px;
+}

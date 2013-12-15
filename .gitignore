@@ -1,0 +1,8 @@
+.idea
+*.DS_Store
+resource/upload
+application/logs
+application/cache
+application/third_party
+*.tmp
+*.iml

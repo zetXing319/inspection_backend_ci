@@ -1,0 +1,45 @@
+body {
+    overflow: auto;
+    -webkit-overflow-scrolling: touch;
+}
+body>h1.main_title {
+    background: rgb(109, 200, 239) !important;
+    margin: 0;
+    padding: 10px;
+    text-align: center;
+    word-wrap: break-word;
+    font-size: 17px;
+}
+
+a.glossary {
+    color: #e00 !important;
+}
+a.glossary:hover {
+    color: #f00 !important;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+div.content {
+    padding: 1px !important;
+    max-width: 800px;
+    word-wrap: break-word;
+}
+
+div.note-editable h1, div.note-editable h2, div.note-editable h3, div.note-editable h4, div.note-editable h5, div.note-editable h6,
+div.note-editable div, div.note-editable p, div.note-editable span, div.note-editable input, div.note-editable select, div.note-editable form,
+div.note-editable ol, div.note-editable ul, div.note-editable li,
+div.note-editable table, div.note-editable tbody, div.note-editable tr, div.note-editable th, div.note-editable td 
+{
+    font-family: 'Arial' !important;
+    font-weight: 300;
+}
+
+div.note-editable b{
+    padding-left: 1px;
+    padding-right: 5px;
+}
+.note-editor .note-editable b{
+    padding-left: 1px;
+    padding-right: 5px;
+}
